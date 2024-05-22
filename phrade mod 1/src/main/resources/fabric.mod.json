@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "phrade-mod",
+	"version": "${version}",
+	"name": "phrade mod",
+	"description": "weed",
+	"authors": [
+		"kumoriko and rade"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/phrade-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"phrade.mod1.PhradeMod"
+		],
+		"client": [
+			"phrade.mod1.PhradeModClient"
+		],
+		"fabric-datagen": [
+			"phrade.mod1.PhradeModDataGenerator"
+		]
+	},
+	"mixins": [
+		"phrade-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
