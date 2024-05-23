@@ -17,7 +17,6 @@ public class ModItems {
         entries.add(BUD);
     }
 
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(PhradeMod.MOD_ID, name), item);
     }
