@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "phrademod:block/weed_block"
+    }
+  }
+}
